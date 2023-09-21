@@ -1,0 +1,42 @@
+body{
+    font-family: Georgia;
+}
+.gorny{
+    background-color: rgb(197, 85, 160);
+    text-align: center;
+    width: 50%;
+    height: 180px;
+}
+.baner,.stopka{
+    background-color: rgb(246, 226, 222);
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    width: 100%;
+}
+.glowny{
+    background-color: rgb(197, 85, 160);
+    color: white;
+    width: 50%;
+    height: 400px;
+}
+a[href="zamowienie.html"]{
+    background-image: url(/img/cukierki1.png);
+    padding-right: 70px;
+    padding-bottom: 120px;
+    font-size: 150%;
+    text-decoration: none;
+}
+table,td{
+border: 2px solid blue;
+margin: 20px;
+padding: 10px;
+}
+h2{
+    letter-spacing: 10px;
+    font-size: 200%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}

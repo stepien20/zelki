@@ -6,25 +6,26 @@
     <meta name="view    port" content="width=device-width, initial-scale=1.0" />
     <title>Fabryka żelków</title>
     <link rel="stylesheet" href="styl9.css" />
+    <script src="main.js" defer></script>
   </head>
   <body>
     <div class="container">
       <!-- 2 gorne baner 2 glowne lewy prawy stopka -->
-      <section>
+      <section class="gorny">
         <a href="index.html">
           <img src="/img/logo.png" alt="logo fabryki" />
         </a>
       </section>
-      <aside>
+      <aside class="gorny">
           <a href="zamowienie.html">
-             <img src="/img/cukierki3.jpg" alt="Nasze wyroby">
+             Zamówienie
           </a>
       </aside>
-      <header>
+      <header class="baner">
         <h2>Zamów nasz produkt</h2>
       </header>
-      <main>
-        <section>
+     
+        <section  class="glowny">
             <h1>Oferta</h1>
             <table>
                 <tr>
@@ -49,21 +50,23 @@
                     </td>
                 </tr>
 
-            </table>
+            </table> 
         </section>
-        <aside>
-            <p>Podaj numer kształtu</p>
-            <input type="number">
-            <p>Skomponuj swój kolor, podaj RGB:</p>
-            <label for="colorR">R <input type="color" id="colorR"></label>
-            <label for="colorG">G <input type="color" id="colorG"></label>
-            <label for="colorB">B <input type="color" id="colorB"></label>
+        <aside class="glowny">
+          <p>Podaj numer kształtu</p>
+          <label for="shape"><input type="number" id="shape" placeholder="1"></label>
+          <p>Skomponuj swój kolor, podaj RGB:</p>
+          <label for="colorR">R <input type="number" id="colorR" placeholder="1" max="255" min="0"></label>
+          <label for="colorG">G <input type="number" id="colorG" placeholder="1" max="255" min="0"></label>
+          <label for="colorB">B <input type="number" id="colorB" placeholder="1" max="255" min="0"></label>
+          <button id="butord">Zamów</button>
+          <p id="display">Wybrany kształt</p>  
+          <button id="butcol">Wybrany kolor</button>
         </aside>
-      </main>
-      <footer>
+      
+      <footer class="stopka">
           Autor strony: <i>PESEL</i>
       </footer>
     </div>
   </body>
 </html>
-  
