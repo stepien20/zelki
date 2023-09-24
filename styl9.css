@@ -21,7 +21,7 @@ body{
     height: 400px;
 }
 a[href="zamowienie.html"]{
-    background-image: url(/img/cukierki1.png);
+    background-image: url(./img/cukierki1.png);
     padding-right: 70px;
     padding-bottom: 120px;
     font-size: 150%;
