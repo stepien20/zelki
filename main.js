@@ -17,8 +17,7 @@ butOrder.addEventListener(`click`,function(evt){
             chosenShape=tabshape[i-1].outerText
             break;
         }
-        chosenShape='inny kształt'
-        break;
+        else chosenShape='inny kształt'
     }
     display=document.querySelector(`#display`)
     display.innerHTML=`Zamówiłeś żelka: ${chosenShape}`
